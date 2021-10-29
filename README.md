@@ -6,7 +6,11 @@
 
 - You must have [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed in VSCode
 - You have to use `LF` instead of `CLRF`. You will find it at the bottom navigation bar of VSCode.
-- Use these commands if you got any error `npm uninstall global eslint` or `yarn global remove eslint`.
+- Use these commands if you got any error `npm uninstall global eslint` or `yarn global remove eslint`. If not skip this step.
+- Change `name` of the project in `package.json`
+- Run `yarn install`
+- Run `yarn start`
+- Boom! 🔥
 - If still there's an error, create a new issue on GitHub.
 
 # Getting Started with Create React App
